@@ -1,0 +1,156 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.menu {
+  background-color: #2b2c37;
+  color: #fff;
+  width: 300px; /* largura do menu */
+  height: 100vh;
+  border-right: solid 1px #3e3f4e;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dashboard {
+  flex: 1;
+}
+
+.logo {
+  display: block;
+  padding: 30px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #2b2c37;
+  border-bottom: solid 1px #3e3f4e;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+}
+
+.header button {
+  width: 160px;
+  height: 48px;
+  border: none;
+  border-radius: 25px;
+  background-color: #635fc7;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20212c;
+}
+
+.add-column {
+  padding: 10px 20px;
+  background-color: white;
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 180px;
+  height: 48px;
+  border: none;
+
+  border-radius: 25px;
+  background-color: #635fc7;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.add-column-modal {
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 48px;
+    border: none;
+  
+    border-radius: 25px;
+    background-color: white;
+    color: purple;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  form div {
+    padding: 10px;
+  }
+  .add-board-modal {
+    padding: 10px 20px;
+    background-color: white;
+    background-color: purple;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 48px;
+    border: none;
+  
+    border-radius: 25px;
+    background-color: #635fc7;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+label {
+  color: white;
+}
+input {
+  display: block;
+  background-color: transparent;
+  border: solid 1px #4c4d5a;
+  border-radius: 4px;
+  padding-left: 15px;
+  width: 400px;
+  margin: 10px;
+  height: 40px;
+}
